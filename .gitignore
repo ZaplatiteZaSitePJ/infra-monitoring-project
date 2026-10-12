@@ -1,0 +1,32 @@
+# Logs
+*.log
+access.log
+
+# Packet captures (may contain sensitive metadata)
+*.pcap
+*.pcapng
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.pid
+*.out
+
+# Build artifacts
+build/
+dist/
+coverage/
+*.tar
+*.tar.gz
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
