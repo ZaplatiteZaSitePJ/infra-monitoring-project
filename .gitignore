@@ -1,4 +1,29 @@
-.vscode/
+# Логи
 *.log
-access.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Docker
+*.pid
+*.sock
+
+# Артефакты сборки
+build/
+dist/
+out/
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
 
